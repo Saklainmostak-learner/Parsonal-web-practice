@@ -1,17 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
-* {
+body {
   background-color: #ffffff;
-  .bebas-neue-regular {
+}
+ .bebas-neue-regular {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
   }
-}
 /* navbar section */
+header{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 40px 130px;
+}
 .nav-bar {
-  max-width: 394px;
-  margin-left: auto;
+ display: flex;
+ justify-content: flex-end;
 }
 .nav-content {
   font-size: 1.2rem;
@@ -37,10 +42,11 @@
   align-items: center;
 }
 .hero-section-left, .hero-section-right {
-  max-width: 50%;
+  width: 50%;
 }
 .hero-image img {
-  width: 100%;
+  max-width:100%;
+  height: auto;
 }
 .hero-title{
     font-size: 5rem;
@@ -57,6 +63,7 @@
     border: none;
     border-radius: 5px;
     color: white;
+    cursor: pointer;
 }
 #text-color{
     color: #FF8367;
